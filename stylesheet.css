@@ -1,0 +1,140 @@
+@font-face {
+font-family: logo_font;
+src: url('AintNothingFancy.ttf'), url('AintNothingFancy.ttf'); /* IE9+ */
+}
+
+body {
+	background-color: #fff9e0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-image: 
+ }
+
+#leftframe {
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom:0;
+	height: 100%;
+	width: 250px;
+	margin-left: 2%;
+}
+
+header {
+	height: 40px;
+}
+
+h1 a {
+
+	font-family: logo_font;
+	font-size: 24px;
+	padding-top: 10px;
+	margin-bottom: 17px;
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+ 	color: black;
+ 	text-decoration: none;
+}
+
+a[href="mailto:irfan.pirbhai@gmail.com"] {
+display: block;
+}
+
+h2 {
+	margin: 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+h2 a {
+	font-family: Arial;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+h2 a:hover{
+	background-color: black;
+	color: white;
+	font-weight: normal;
+}
+
+.nav_toptext h2 a{
+	color: grey;
+}
+
+h4 {
+	font-family: cursive;
+}
+
+#logo_underline > div {
+	height: 5px;
+	width: 28px;
+	display: inline-block;
+	position: relative;
+	top: -33px;
+	left: -2px;
+}
+
+#underline1 {
+	background-color: #496F7A;
+}
+
+#underline2 {
+	background-color: #D1CEB8;
+}
+
+#underline3 {
+	background-color: #AE8851;
+}
+
+#underline4 {
+	background-color: #AB442D;
+}
+
+#underline5 {
+	background-color: #8F1012;
+}
+
+.socialmedia_buttons {
+	height: 30px;
+	float: left;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#nav_content {
+	margin-top: 5px;
+}
+
+#section_content {
+	position: absolute;
+	top:0;
+	right: 300px;
+	bottom: 0;
+	left: 210px;
+	height: 100%;
+	margin-left: 5px;
+	margin-top: 89px;
+	font-size: 12px;
+}
+
+#section_content h4 {
+	
+}
+.clear{
+	clear:both;
+}
+
+footer p {
+	position: absolute;
+	float: left;
+	bottom: 1px;
+	left: 2%;
+	font-size: 10px;
+	margin: 0 auto;
+}
